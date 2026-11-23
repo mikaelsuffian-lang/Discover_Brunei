@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#183D2B">
+    <title>Discover Brunei | Attractions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+    <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="index.html">Discover Brunei</a>
+
+        <button class="menu-toggle" type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="site-menu">
+            <span class="hamburger"></span>
+        </button>
+
+        <ul class="nav-links" id="site-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="attractions.html" aria-current="page">Attractions</a></li>
+            <li><a href="visit.html">Plan Your Visit</a></li>
+            <li><a href="contact.html">Events & Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main">
+
+    <!-- HERO SECTION -->
+    <section class="hero short">
+
+        <video class="bg-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+            <source src="video/AttractionsBruneiVideo.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-text">
+            <p class="subtitle">EXPLORE THE ABODE OF PEACE</p>
+
+            <h1>Places Worth the Trip</h1>
+
+            <p>
+                Whether you enjoy history, nature or spending
+                time with family, Brunei has something for you.
+                Let's explore some of its popular attractions.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- ATTRACTIONS SECTION -->
+    <section class="section attractions-section">
+
+        <h2>Explore Brunei's Attractions</h2>
+
+        <p class="narrow">
+            Here are some places you should not miss when
+            visiting Brunei. Select a category to find
+            something that interests you.
+        </p>
+
+
+        <!-- CATEGORY FILTERS -->
+        <div class="filter-group">
+
+            <button class="filter-btn active"
+                type="button"
+                data-filter="all"
+                aria-pressed="true">
+                All
+            </button>
+
+            <button class="filter-btn"
+                type="button"
+                data-filter="culture"
+                aria-pressed="false">
+                Culture
+            </button>
+
+            <button class="filter-btn"
+                type="button"
+                data-filter="nature"
+                aria-pressed="false">
+                Nature
+            </button>
+
+            <button class="filter-btn"
+                type="button"
+                data-filter="history"
+                aria-pressed="false">
+                History
+            </button>
+
+        </div>
+
+
+        <!-- ATTRACTION CARDS -->
+        <div class="attractions-grid">
+
+
+            <!-- KAMPONG AYER -->
+            <article class="attraction-card" data-category="culture">
+
+                <img class="attraction-image"
+                    src="images/KampongAyerBrunei.png"
+                    alt="Traditional stilt houses at Kampong Ayer"
+                    loading="lazy">
+
+                <h3>Kampong Ayer</h3>
+
+                <p>
+                    Often called the Water Village, Kampong Ayer
+                    is a historic settlement built on stilts
+                    above the Brunei River. People have lived
+                    here for generations, and visitors can
+                    explore the village by water taxi.
+                </p>
+
+                <p><strong>Story:</strong> People have lived here for centuries. It was once the centre of Brunei's trade and daily life.</p>
+
+                <button class="show-map"
+                    type="button"
+                    data-place="Kampong Ayer, Brunei">
+                    Show on Map
+                </button>
+
+            </article>
+
+
+            <!-- SULTAN OMAR ALI SAIFUDDIEN MOSQUE -->
+            <article class="attraction-card" data-category="culture">
+
+                <img class="attraction-image"
+                    src="images/MasjidBrunei.webp"
+                    alt="Sultan Omar Ali Saifuddien Mosque"
+                    loading="lazy">
+
+                <h3>Sultan Omar Ali Saifuddien Mosque</h3>
+
+                <p>
+                    Located in the heart of Bandar Seri Begawan,
+                    this mosque is one of Brunei's most recognisable
+                    landmarks. It is famous for its golden dome,
+                    beautiful architecture and peaceful lagoon.
+                </p>
+
+                <p><strong>Story:</strong> Completed in 1958 and named after Sultan Omar Ali Saifuddien III. A stone boat stands in the lagoon.</p>
+
+                <button class="show-map"
+                    type="button"
+                    data-place="Sultan Omar Ali Saifuddien Mosque, Brunei">
+                    Show on Map
+                </button>
+
+            </article>
+
+
+            <!-- ROYAL REGALIA MUSEUM -->
+            <article class="attraction-card" data-category="history">
+
+                <img class="attraction-image"
+                    src="images/MuseumBrunei.webp"
+                    alt="Royal Regalia Museum in Bandar Seri Begawan"
+                    loading="lazy">
+
+                <h3>Royal Regalia Museum</h3>
+
+                <p>
+                    Want to learn more about Brunei's royal history?
+                    This museum displays royal ceremonial items,
+                    gifts and collections connected to the
+                    country's monarchy.
+                </p>
+
+                <p><strong>Story:</strong> Opened in 1992. It keeps items from royal ceremonies and national events.</p>
+
+                <button class="show-map"
+                    type="button"
+                    data-place="Royal Regalia Museum, Brunei">
+                    Show on Map
+                </button>
+
+            </article>
+
+
+            <!-- ULU TEMBURONG -->
+            <article class="attraction-card" data-category="nature">
+
+                <img class="attraction-image"
+                    src="images/TemburongBrunei.webp"
+                    alt="Tropical rainforest in Ulu Temburong"
+                    loading="lazy">
+
+                <h3>Ulu Temburong National Park</h3>
+
+                <p>
+                    If you enjoy nature, this is a place worth
+                    visiting. The national park is known for
+                    its tropical rainforest, wildlife, river
+                    journeys and canopy walkway.
+                </p>
+
+                <p><strong>Story:</strong> One of Brunei's best-kept rainforests, and much of it is still untouched.</p>
+
+                <button class="show-map"
+                    type="button"
+                    data-place="Ulu Temburong National Park, Brunei">
+                    Show on Map
+                </button>
+
+            </article>
+
+
+            <!-- JERUDONG PARK -->
+            <article class="attraction-card" data-category="culture">
+
+                <img class="attraction-image"
+                    src="images/jerudong.jpg"
+                    alt="Jerudong Park amusement park"
+                    loading="lazy">
+
+                <h3>Jerudong Park</h3>
+
+                <p>
+                    Looking for something fun to do with friends
+                    or family? Jerudong Park is a popular
+                    amusement park with rides and entertainment
+                    for visitors of different ages.
+                </p>
+
+                <p><strong>Story:</strong> Built as a big family attraction. It is one of Brunei's best-known places for fun.</p>
+
+                <button class="show-map"
+                    type="button"
+                    data-place="Jerudong Park, Brunei">
+                    Show on Map
+                </button>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- GOOGLE MAP SECTION -->
+    <section class="section brown">
+
+        <h2>Find Your Way Around Brunei</h2>
+
+        <p>
+            Choose the Show on Map button above to see
+            where each attraction is located.
+        </p>
+
+        <iframe
+            id="map"
+            class="map"
+            title="Map showing attractions in Brunei"
+            src="https://maps.google.com/maps?q=Bandar+Seri+Begawan,+Brunei&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Discover Brunei | The Abode of Peace</p>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
